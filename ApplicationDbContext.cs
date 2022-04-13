@@ -19,6 +19,7 @@ namespace EFCorePeliculas
             configurationBuilder.Properties<DateTime>().HaveColumnType("date");
             //Siempre que agregemos un campo DateTime por defecto se mapea a date
         }
+        //
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
